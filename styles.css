@@ -74,9 +74,9 @@ body{
 }
 
 .signature {
-  width: 100px; 
+  width: 500px; 
   height:auto; 
-  margin-right: 10px; 
+  margin-right: 30px; 
 }
 
 .header ul li:first-child {
@@ -126,8 +126,8 @@ body{
   height:  300px;
   border-radius: 50%;
   overflow: hidden;
-  border: 15px solid #444444;
-  box-shadow: 5px 7px 25px rgba(0, 0, 0, 0.5)
+  border: 15px solid #eee8e8;
+  box-shadow: 5px 7px 25px rgba(228, 232, 29, 0.5)
 }
 profile-photo .img{
   height: 100%;
@@ -234,8 +234,66 @@ profile-photo .img{
   border-color: #fed700;
 }
 
+/*---------------------------Services---------------------------*/
+.project-content{
+  padding: 90px 0;
+  /* color:#fff;  */
+}
+.project-title{
+  margin-bottom: 60px;
+  text-align: center;
+}
+.project-title h4{
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 40px;
+  color: #fed700;
+  margin-bottom: 20px;
+}
+.project-title p{
+  color: #e5e5e5;
+}
+.projects{
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+}
+.project{
+    /* padding: 30px 15px; */
+    color: #e5e5e5;
+    border: 2px solid #e5e5e5;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    padding: 25px;
+    text-align: center;
+    flex-basis: 32%;
+    transition: .3s;
+}
+.project i{
+  background-color: #fed700;
+  width: 60px;
+  height: 60px;
+  color: #333;
+  font-size: 26px;
+  line-height: 60px;
+  border-radius: 50%;
+}
+.project h4{
+  font-size: 26px;
+  text-transform: capitalize;
+  margin: 20px 0;
+}
+.project p{
+  text-align: justify;
+}
+.project:hover{
+  border-color: #fed700;
+}
 
-/*---------------------------Education & Internship---------------------------*/
+
+
+/*---------------------------Education & Experience---------------------------*/
 
 .education-content .row{
   display: flex;
@@ -320,7 +378,6 @@ profile-photo .img{
 }
 
 
-
 /*---------------------------Projects---------------------------*/
 .project-content{
   padding: 90px 0;
@@ -389,7 +446,7 @@ profile-photo .img{
 .contact-content .contact-title h4{
   font-size: 40px;
   text-transform: capitalize;
-  color: #fed700;
+  color: #0ef;
   padding-bottom: 10px;
 }
 .contact-content .contact-title p{
